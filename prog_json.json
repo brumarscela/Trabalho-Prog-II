@@ -1,0 +1,88 @@
+{
+    "dados": {
+        "consulta" : {
+            "tipo_consulta": "semanal",
+            "horario": { 
+                   "id":1,
+                   "dia":"2019, 12, 5, 14, 30",
+                   "dias_disp":{ 
+                      "id":1,
+                      "carga_horaria": "10",
+                      "salario": "9000",
+                      "dias_disp": "seg, ter, qua, qui, sex, sab",
+                      "pessoa": {
+                        "nome": "Bruna",
+                        "cpf": "10865378989",
+                        "data_nasc": "05/06/2001"
+                      }
+                   }
+                },
+
+            "espaco": {
+                "aluguel": "3000",
+                "endereco": "rua XV de Novembro - Centro",
+                "telefone": "33384050"
+                },
+
+            "paciente": {
+                "enfermidade": "TOC",
+                "quantidade_consultas": "5",
+                "pessoa": {
+                    "nome": "Tiago",
+                    "cpf": "10955578999",
+                    "data_nasc": "08/07/2001"
+                }
+            },
+
+
+            "atendente": {
+                "carga_horaria": "6",
+                "salario": "3000",
+                "pessoa": {
+                    "nome": "Múcio",
+                    "cpf": "10865888999",
+                    "data_nasc": "10/06/2002"
+                }
+            },
+
+
+
+            "psicologo": {
+                "carga_horaria": "10",
+                "salario": "9000",
+                "dias_disp": "seg, ter, qua, qui, sex, sab",
+                "pessoa": {
+                    "nome": "Bruna",
+                    "cpf": "10865378989",
+                    "data_nasc": "05/06/2001"
+                }
+            
+            },
+
+            "formapagamento": {
+                "a_vista": "300",
+                "parcelado": "0",
+                "convenio": "0"
+            }
+
+        },
+        
+        "contabilidade": {
+            "entrada_dinheiro": "100000",
+            "gasto_salario": "12000",
+            "gasto_energia": "300",
+            "gasto_internet": "80",
+            "propaganda": {
+                "preco_radio": "300",
+                "preco_televisao": "3000",
+                "preco_redes_sociais": "300",
+                "preco_site": "3000"
+            },
+            "local": {
+                "aluguel": "3000",
+                "endereco": "rua XV de Novembro - Centro",
+                "telefone": "33384050"
+            }
+        }
+    }
+}
